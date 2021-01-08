@@ -1,13 +1,11 @@
 import express from 'express';
+import routes from './routes';
 
 const app = express();
+routes(app);
 
-app.get('/', (request, response) =>
-  response.json({
-    message: 'Meu server Express, Typescript e ESLint!',
-  })
-);
+const port = process.env.PORT || 3333;
 
-app.listen(3333, () => {
-  console.log('🚀 Server started on http://localhost:3333');
+app.listen(port, () => {
+  console.log(`🚀 Server started on http://localhost:${port}`);
 });
