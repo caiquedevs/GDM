@@ -15,6 +15,10 @@
   <img src="https://github.com/caiquedevs/GDM/blob/main/github/demo.gif" width="100%" />
 </p>
 
+<p align="center">
+  <a href="https://insomnia.rest/run/?label=GDM%20collection&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fcaiquedevs%2FGDM%2Fmain%2Fserver%2FInsomnia_2021-01-11.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
+
 ## 🚀 Tecnologias
 
 Esse projeto esta sendo desenvolvido com as seguintes tecnologias:
