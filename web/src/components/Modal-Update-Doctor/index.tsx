@@ -21,7 +21,6 @@ interface Props {
   doctors: any,
   setDoctors: any
   selectedDoctor: any,
-  setSelectedDoctor: any
 }
 
 interface Specialty {
@@ -29,7 +28,7 @@ interface Specialty {
   name: string
 }
 
-export default function ModalUpdateDoctorComponent({ open, setOpen, doctors, setDoctors, selectedDoctor, setSelectedDoctor }: Props): JSX.Element {
+export default function ModalUpdateDoctorComponent({ open, setOpen, doctors, setDoctors, selectedDoctor }: Props): JSX.Element {
   const [specialties, setSpecialties] = useState<Specialty[]>([]);
   const [selectedSpecialties, setSelectedSpecialties] = useState<number[]>([]);
 

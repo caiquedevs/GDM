@@ -64,7 +64,6 @@ function HomePage({ doctors, setDoctors }: Props): JSX.Element {
             open={openUpdateDoctor}
             setOpen={setOpenUpdateDoctor}
             selectedDoctor={selectedDoctor}
-            setSelectedDoctor={setSelectedDoctor}
             doctors={doctors}
             setDoctors={setDoctors}
           />
