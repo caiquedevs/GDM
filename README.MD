@@ -64,9 +64,9 @@ $ cd GDM/server/src/config
 # abrir o aqruivo Database.json
 # Inserir sua config do banco de dados
 $ development: {
-    username: "root",
+    username: "",
     password: "",
-    database: "",
+    database: "GDM",
     host: "127.0.0.1",
     dialect: "mysql"
   },
@@ -83,11 +83,14 @@ $ yarn install
 ou
 $ npm install
 
+# Criar banco de dados
+$ npx sequelize db:create GDM
+
 # Executar migrações
 $ npx sequelize db:migrate
 
 # Executar Seeds
-$ npx sequelize db:seeds:all
+$ npx sequelize db:seed:all
 
 # Iniciar servidor
 $ yarn dev
