@@ -66,6 +66,96 @@ module.exports = (sequelize, DataTypes) => {
           },
         },
       },
+      logradouro: {
+        type: DataTypes.STRING,
+        defaultValue: '',
+        validate: {
+          len: {
+            args: [0, 255],
+            msg: 'This field must be between 3 and 255 characters',
+          },
+        },
+      },
+      complemento: {
+        type: DataTypes.STRING,
+        defaultValue: '',
+        validate: {
+          len: {
+            args: [0, 255],
+            msg: 'This field must be between 3 and 255 characters',
+          },
+        },
+      },
+      bairro: {
+        type: DataTypes.STRING,
+        defaultValue: '',
+        validate: {
+          len: {
+            args: [0, 255],
+            msg: 'This field must be between 3 and 255 characters',
+          },
+        },
+      },
+      localidade: {
+        type: DataTypes.STRING,
+        defaultValue: '',
+        validate: {
+          len: {
+            args: [0, 255],
+            msg: 'This field must be between 3 and 255 characters',
+          },
+        },
+      },
+      uf: {
+        type: DataTypes.STRING,
+        defaultValue: '',
+        validate: {
+          len: {
+            args: [0, 255],
+            msg: 'This field must be between 3 and 255 characters',
+          },
+        },
+      },
+      ibge: {
+        type: DataTypes.STRING,
+        defaultValue: '',
+        validate: {
+          len: {
+            args: [0, 255],
+            msg: 'This field must be between 3 and 255 characters',
+          },
+        },
+      },
+      gia: {
+        type: DataTypes.STRING,
+        defaultValue: '',
+        validate: {
+          len: {
+            args: [0, 255],
+            msg: 'This field must be between 0 and 255 characters',
+          },
+        },
+      },
+      ddd: {
+        type: DataTypes.STRING,
+        defaultValue: '',
+        validate: {
+          len: {
+            args: [0, 255],
+            msg: 'This field must be between 0 and 255 characters',
+          },
+        },
+      },
+      siafi: {
+        type: DataTypes.STRING,
+        defaultValue: '',
+        validate: {
+          len: {
+            args: [0, 255],
+            msg: 'This field must be between 3 and 255 characters',
+          },
+        },
+      },
     },
     {
       sequelize,
