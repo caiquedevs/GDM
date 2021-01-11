@@ -54,8 +54,9 @@ Na sua linha de comando:
 $ git clone https://github.com/caiquedevs/GDM.git
 
 # Entre no repositório
-$ cd GDM/server
+$ cd GDM/server/src/config
 
+# abrir o aqruivo Database.json
 # Inserir sua config do banco de dados
 $ development: {
     username: "root",
